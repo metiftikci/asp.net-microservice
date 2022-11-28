@@ -1,3 +1,4 @@
+using AuthMicroservice.Requests;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AuthMicroservice.Controllers;

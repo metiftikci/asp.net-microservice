@@ -2,6 +2,7 @@
 
 ## TODO
 
+- [x] CQRS
 - [ ] MongoDB
 - [ ] Redis
 - [ ] RabbitMQ
