@@ -1,7 +1,6 @@
 using AuthMicroservice.Requests;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using System.ComponentModel.DataAnnotations;
 
 namespace AuthMicroservice.Controllers;
 
@@ -19,7 +18,7 @@ public class AuthController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<ActionResult<string>> GetAsync([FromBody] AuthRequest request)
+    public async Task<ActionResult<string>> CreateTokenAsync([FromBody] AuthRequest request)
     {
         _logger.LogInformation("Auth request starting.");
 
